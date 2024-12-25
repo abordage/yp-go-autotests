@@ -1,4 +1,4 @@
-# go-autotests
+# go-autotests 1.23
 
 Автотесты для курса «Go-разработчик».
 
