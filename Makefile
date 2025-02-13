@@ -27,3 +27,10 @@ utils:
 
 perm:
 	chmod -R +x bin
+
+local-install:
+	cp bin/gophermarttest-darwin-arm64 /Users/abordage/go/bin/yandex-practicum-gophermarttest
+	cp bin/metricstest-darwin-arm64 /Users/abordage/go/bin/yandex-practicum-metricstest
+	cp bin/random-darwin-arm64 /Users/abordage/go/bin/yandex-practicum-random
+	cp bin/statictest-darwin-arm64 /Users/abordage/go/bin/yandex-practicum-statictest
+	chmod -R +x /Users/abordage/go/bin
